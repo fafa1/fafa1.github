@@ -1,4 +1,4 @@
-const porta = 3000
+const porta = process.env.PORT || 8080
 
 const express = require('express')
 const logger = require('morgan')
